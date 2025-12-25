@@ -26,7 +26,7 @@ namespace asp2_empty
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write("Welcome to asp.net");
+            Response.Write("Hello World");
         }
 
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
