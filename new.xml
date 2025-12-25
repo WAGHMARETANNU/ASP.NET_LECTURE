@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+
+		<ImageUrl>Images\tulips.jpg</ImageUrl>
+		<NavigateUrl>https://www.ajio.com/</NavigateUrl>
+		<Impressions>5</Impressions>
+		<Keywords>shopping,ajio</Keywords>
+		<AlternateText></AlternateText>
+	</Ad>
+	
+</Advertisements>
