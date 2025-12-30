@@ -15,22 +15,13 @@ namespace asp2_empty
         {
 
         /// <summary>
-        /// lblResult control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm lblResult;
-
-        /// <summary>
-        /// Label1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
         /// AdRotator1 control.
@@ -51,22 +42,13 @@ namespace asp2_empty
         protected global::System.Web.UI.WebControls.Calendar Calendar1;
 
         /// <summary>
-        /// LabelCurrentDate control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelCurrentDate;
-
-        /// <summary>
-        /// LabelBirthDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelBirthDate;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
         /// FileUpload1 control.
@@ -87,12 +69,12 @@ namespace asp2_empty
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// Label3 control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label Label2;
         }
     }

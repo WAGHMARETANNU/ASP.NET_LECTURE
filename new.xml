@@ -8,5 +8,13 @@
 		<Keywords>shopping,ajio</Keywords>
 		<AlternateText></AlternateText>
 	</Ad>
+	<Ad>
+
+		<ImageUrl>Images\tulips.jpg</ImageUrl>
+		<NavigateUrl>https://www.ajio.com/</NavigateUrl>
+		<Impressions>5</Impressions>
+		<Keywords>shopping,ajio</Keywords>
+		<AlternateText></AlternateText>
+	</Ad>
 	
 </Advertisements>

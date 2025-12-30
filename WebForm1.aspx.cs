@@ -11,28 +11,21 @@ namespace asp2_empty
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            LabelCurrentDate.Text = "Current date: " + DateTime.Now.ToString("dddd, MMMM dd, yyyy");
-
-            DateTime selectedDate = Calendar1.SelectedDate;
-            if (selectedDate.Year > 1)
-            {
-                LabelBirthDate.Text = "Birth date: " + selectedDate.ToString("dddd, MMMM dd, yyyy");
-            }
-            else
-            {
-                LabelBirthDate.Text = "";
-            }
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
-        {
-            Response.Write("Hello World");
-        }
+            {
+            string file = FileUpload1.FileName;
+            string path = Server.MapPath("~/Uploads/" + file); // Ensure the 'Uploads' directory exists in your project
+            FileUpload1.SaveAs(path);
+            Label2.Text = "File uploaded successfully: " + file;
+
+            }
 
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
-        {
-            DateTime selectedDate = Calendar1.SelectedDate;
-            LabelBirthDate.Text = "Birth date: " + selectedDate.ToString("dddd, MMMM dd, yyyy");
+            {
+            Label1.Text = "Selected date: " + Calendar1.SelectedDate.ToShortDateString();
+            }
         }
-    }
 }
