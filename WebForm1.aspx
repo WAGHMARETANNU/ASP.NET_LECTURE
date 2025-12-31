@@ -27,6 +27,27 @@
         <br />
         <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
         <br />
+        <br />
+        multiview controller<br />
+        <br />
+        <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
+            <asp:View ID="View1" runat="server">
+                hellow this is from view 1<br />
+                <asp:Button ID="next_btn" runat="server" Text="next" OnClick="next_btn_Click" />
+                <br />
+            </asp:View>
+            <asp:View ID ="View2" runat="server">
+                hello from view 2<br />
+                <asp:Button ID="Button2" runat="server" Text="Prev" OnClick="Button2_Click" />
+                <asp:Button ID="next_view2_btn" runat="server" Text="Next" OnClick="next_view2_btn_Click" />
+                <br />
+            </asp:View>
+            <asp:View ID ="View3" runat ="server">
+                welcome to view 3<br />
+                <br />
+                <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Prev" />
+            </asp:View>
+        </asp:MultiView>
     </form>
 </body>
 </html>

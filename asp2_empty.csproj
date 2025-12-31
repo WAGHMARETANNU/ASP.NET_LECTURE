@@ -70,6 +70,7 @@
     <Content Include="Images\tulips.jpg" />
     <Content Include="new.xml" />
     <Content Include="sir_portion.aspx" />
+    <Content Include="validation.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="sir_portion.aspx.designer.cs">
       <DependentUpon>sir_portion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="validation.aspx.cs">
+      <DependentUpon>validation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="validation.aspx.designer.cs">
+      <DependentUpon>validation.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

@@ -27,5 +27,27 @@ namespace asp2_empty
             {
             Label1.Text = "Selected date: " + Calendar1.SelectedDate.ToShortDateString();
             }
+
+        protected void next_btn_Click(object sender, EventArgs e)
+            {
+                MultiView1.ActiveViewIndex = 1;
+
+            }
+
+        protected void Button2_Click(object sender, EventArgs e)
+            {
+                MultiView1.ActiveViewIndex = 0;
+            }
+
+        protected void next_view2_btn_Click(object sender, EventArgs e)
+            {
+                MultiView1.ActiveViewIndex = 2;
+            }
+
+        protected void Button3_Click(object sender, EventArgs e)
+            {
+
+            MultiView1.ActiveViewIndex = 1;
+            }
         }
 }
