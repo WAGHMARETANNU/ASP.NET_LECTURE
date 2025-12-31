@@ -48,6 +48,29 @@
                 <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Prev" />
             </asp:View>
         </asp:MultiView>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            AUTO POST BACK
+        </p>
+        <p>
+            <asp:Label ID="auto_name" runat="server" Text="Name"></asp:Label>
+            <asp:TextBox ID="TextBox_auto" runat="server" AutoPostBack="True" Width="278px"></asp:TextBox>
+        </p>
+        <p>
+            <asp:Label ID="lbl_sub" runat="server" Text="Subject"></asp:Label>
+            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                <asp:ListItem>JAVA</asp:ListItem>
+                <asp:ListItem>.NET</asp:ListItem>
+            </asp:DropDownList>
+        </p>
+        <asp:Label ID="Lbl_auto_result" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>

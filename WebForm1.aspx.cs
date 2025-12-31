@@ -11,6 +11,7 @@ namespace asp2_empty
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           
             
         }
 
@@ -48,6 +49,12 @@ namespace asp2_empty
             {
 
             MultiView1.ActiveViewIndex = 1;
+            }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+            {
+
+
             }
         }
 }

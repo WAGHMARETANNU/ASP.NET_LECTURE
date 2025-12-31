@@ -33,6 +33,9 @@
             <asp:Label ID="lbl_age" runat="server" Text="AGE"></asp:Label>
             <asp:TextBox ID="TxtBox_age" runat="server" style="margin-left: 112px"></asp:TextBox>
             <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="TxtBox_age" ErrorMessage="AGE GREATER THAN 18 AND LESS THAN 40 IS REQ" ForeColor="Red" MaximumValue="40" MinimumValue="18" SetFocusOnError="True" Type="Integer">*</asp:RangeValidator>
+            <strong>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TxtBox_age" ErrorMessage="ENTER AGE" ForeColor="Red" SetFocusOnError="True">*</asp:RequiredFieldValidator>
+            </strong>
         </p>
         <p>
             <strong>3)REGULAR EXPRESSION VALIDATOR</strong></p>

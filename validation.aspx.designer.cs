@@ -78,6 +78,15 @@ namespace asp2_empty
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
 
         /// <summary>
+        /// RequiredFieldValidator3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+
+        /// <summary>
         /// lbl_email control.
         /// </summary>
         /// <remarks>
